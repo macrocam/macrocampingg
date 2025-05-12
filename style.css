@@ -1,0 +1,332 @@
+
+header{
+    background-image: url(azucarera2\ \(2\).jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100%;
+    position:absolute;
+    top: 0 ;
+    left: 0;
+
+}
+body{
+    background:linear-gradient( to bottom, rgba(2, 107, 2, 0.938), rgba(95, 228, 7, 0.842),rgba(0, 204, 85, 0.671), blue);
+    max-width:100%;
+    margin:50px ;
+    padding:20px ;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+main{
+    flex: 1 ;
+}
+.info{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px;
+ background-color: rgba(13, 207, 78, 0.514);
+}
+.texto{
+    width: 60% ;
+}
+.imagen_derecha{
+    display: flex;
+    gap: 1px;
+
+}
+.imagen_derecha img{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+
+}
+@media (max-width:768px){
+    .info{
+        flex-direction:column-reverse;
+        text-align: center;
+    }
+    .imagen_derecha img{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1px;
+        width: 200px;
+        height: auto;
+        margin-top: 0px;
+    }
+}
+
+
+h1{ 
+    text-align: center;
+    text-shadow: 2px 2px 4px 
+    rgba(240, 30, 2, 0.911);
+    font-size: 60px;
+}
+h2{
+    color: rgb(124, 7, 7);
+}
+p1{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-weight: 600;  
+}
+
+p3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;  
+
+}
+.tarjeta1{
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px 8px
+     rgba(240, 157, 2, 0.911);
+     cursor: pointer;
+     transition: 0,3s;
+     background-color: rgba(0, 238, 255, 0.747);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tarjeta1:hover{
+    box-shadow: 4px 4px 12px
+    rgba(49, 3, 252, 0.897);
+}
+.tarjeta1 img{
+    width : 100%;
+    border-radius: 10px;
+}
+.fila {
+    display: flex ;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    justify-content: flex-start ;
+    gap:20px
+    
+}
+
+
+.tarjeta2{
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0px 2px 5px
+     rgba(2, 240, 53, 0.911);
+     cursor: pointer;
+     transition: 0,3s;
+     background-color: rgba(177, 91, 34, 0.842);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.tarjeta2:hover{
+    box-shadow: 4px 4px  12px
+    rgba(97, 75, 3, 0.897);
+}
+.tarjeta2 img{
+    width : 100%;
+    border-radius: 10px;
+}
+.tarjeta3{
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px 8px
+     rgba(241, 245, 4, 0.911);
+     cursor: pointer;
+     transition: 0,3s;
+     background-color: rgba(168, 168, 19, 0.616);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.tarjeta3:hover{
+    box-shadow: 4px 4px  12px
+    rgba(223, 24, 10, 0.897);
+}
+.tarjeta3 img{
+    width : 100%;
+    border-radius: 10px;
+}
+.tarjeta3-5{
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px 8px
+     rgba(0, 158, 250, 0.911);
+     cursor: pointer;
+     transition: 0,3s;
+     background-color: rgba(247, 25, 25, 0.699);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.tarjeta3-5:hover{
+    box-shadow: 6px 6px  20px
+    rgba(245, 141, 6, 0.897);
+}
+.tarjeta3-5 img{
+    width : 100%;
+    border-radius: 10px;
+}
+.decoracionn {
+    position: absolute;
+    top: 1380px;
+    right:1px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10px;
+    z-index: 1000;
+}
+@media( max-width:768px){
+      .decoracionn{
+        flex-direction: column;
+        align-items:center;
+        top: 1600px;
+      }
+}
+.decoracionn img{
+    width: 140px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+#Hospedajes{
+   color: black;
+   text-shadow: 2px 2px 4px 
+    rgba(2, 204, 240, 0.911);
+}
+.tarjeta4{
+    width: 180px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px 8px
+     rgba(240, 2, 169, 0.911);
+     cursor: pointer;
+     transition: 0,3s;
+     background-color: rgba(240, 57, 11, 0.774);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.tarjeta4:hover{
+    box-shadow: 4px 4px  12px
+    rgba(119, 3, 252, 0.897);
+}
+.tarjeta4 img{
+    width : 100%;
+    border-radius: 30px;
+}
+
+.tarjeta5{
+    width: 180px;
+    border: 1px solid #ccc;
+    border-radius: 60px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 6px 5px 20px
+     rgba(240, 2, 2, 0.911);
+     cursor: pointer;
+     transition: 0,3s;
+     background-color: rgba(223, 124, 10, 0.795);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.tarjeta5:hover{
+    box-shadow: 4px 4px  12px
+    rgba(236, 16, 144, 0.897);
+}
+.tarjeta5 img{
+    width : 100%;
+    border-radius: 30px;
+}
+
+
+.tarjeta6{
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 5px 5px 12px
+     rgba(24, 255, 74, 0.911);
+     cursor: pointer;
+     transition: 0,3s;
+     background-color: rgba(102, 0, 128, 0.685);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tarjeta6:hover{
+    box-shadow: 4px 4px  12px
+    rgba(172, 4, 250, 0.897);
+}
+.tarjeta6 img{
+    width : 100%;
+    border-radius: 10px;
+}
+
+
+.tarjeta7{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 5px 5px 15px
+     rgb(16, 230, 141);
+     cursor: pointer;
+     transition: 0,3s;
+     background-color: rgba(224, 124, 42, 0.938)
+}
+.tarjeta7:hover{
+    box-shadow: 4px 4px  12px
+    rgba(231, 247, 4, 0.897);
+}
+.tarjeta7 img{
+    width : 100%;
+    border-radius: 10px;
+}
+#ubicacion{
+    color: black;
+    text-shadow: 2px 2px 4px 
+    rgba(89, 211, 106, 0.911);
+}
+.footer{
+    background-color: rgba(36, 46, 77, 0.712);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-contenido{
+    max-width: 100px;
+    margin: auto;
+}
+.redes a {
+    color: rgb(7, 197, 245);
+    margin: 0 10 px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.redes a:hover{
+    color: yellow;
+}

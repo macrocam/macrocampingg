@@ -1,0 +1,11 @@
+body{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background:linear-gradient( to , rgba(245, 229, 14, 0.897), rgba(255, 67, 10, 0.822),rgba(165, 62, 2, 0.829), rgba(206, 60, 2, 0.76));
+    max-width:100%;
+    margin:50px ;
+    padding:20px ;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
